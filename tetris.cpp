@@ -1,3 +1,5 @@
+//Written by Pradyot Prakash, IIT Bombay.
+
 #include<FL/Fl.H>
 #include<FL/Fl_Window.H>
 #include<FL/Fl_Box.H>
@@ -357,7 +359,7 @@ ActivePiece::ActivePiece(Board *g)
 			color+= 50;
 }
 
-///following function was supposed to be linked with space bar but there is a bug in this function
+
 bool ActivePiece::moveBottom()
 {
 	int c=0;
